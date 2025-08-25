@@ -6,7 +6,6 @@ functions daysOfAYear(year) {
     return 365; // Non-leap year
   }
 }
-console.log(2022);
-
-	
+const year = parseInt(prompt("Enter a year:"));
+alert(daysOfAYear(year));
 }
