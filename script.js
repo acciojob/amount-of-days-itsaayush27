@@ -1,11 +1,11 @@
-//your JS code here. If required.
-functions daysOfAYear(year) {
-	  if ((year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0)) {
-    return 366; // Leap year
+function daysOfAYear(year) {
+  if ((year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0)) {
+    return 366;
   } else {
-    return 365; // Non-leap year
+    return 365;
   }
 }
+
+// Prompt user and alert the result
 const year = parseInt(prompt("Enter a year:"));
-alert(daysOfAYear(year));
-}
+alert(daysOfAYear(year))
