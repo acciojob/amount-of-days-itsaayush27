@@ -7,5 +7,6 @@ functions daysOfAYear(year) {
   }
 }
 console.log(2022);
+
 	
 }
